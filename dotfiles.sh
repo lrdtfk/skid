@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# bash <(wget -qO- https://raw.githubusercontent.com/14mth3w0r5t/skid/main/dotfiles.sh)
+# bash <(wget -qO- https://raw.githubusercontent.com/lrdtfk/skid/main/dotfiles.sh)
 
 
-git clone --bare git@github.com:14mth3w0r5t/.dotfiles.git $HOME/.dotfiles &> /dev/null
+git clone --bare git@github.com:lrdtfk/.dotfiles.git $HOME/.dotfiles &> /dev/null
 
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
