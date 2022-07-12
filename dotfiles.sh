@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# bash <(wget -qO- https://raw.githubusercontent.com/lrdtfk/skid/main/dotfiles.sh)
-
 
 git clone --bare git@github.com:lrdtfk/.dotfiles.git $HOME/.dotfiles &> /dev/null
 
